@@ -16,15 +16,65 @@
       </div>
       <br>
       <form id="TrackSuggester">
-        <label for="name">But first, what is your name?</label>
-        <input id="name" type="text" class="form-group">
+        <div class="well">
+          <label for="name">But first, what is your name?</label>
+          <input id="name" type="text" class="form-group">
+        </div>
         <br>
         <h4>Now on to the good stuff...</h4>
-        <label for=""></label>
-        <input type="text" name="" value="">
-        <br>
+        <div class="well">
+          <div class="radio">
+            <h4>Do you want to code for yourself, in a startup, or for big enterprise?</h4>
+            <label>
+              <input type="radio" name="sizeRadios" id="sizeRadios1" value="enterprise">
+              A lot of big enterprises use C# and Java in most of their day-to-day
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="sizeRadios" id="sizeRadios2" value="startups">
+              A lot of startups use Ruby so they can deploy products and web-apps as quickly as possible
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="sizeRadios" id="sizeRadios3" value="yourself">
+              If you like contract-based work, and working remotely, there are plenty of options out there for people familiar with PHP, and CSS/Design
+            </label>
+          </div>
+        </div>
+        <div class="well">
+          <h4>Are you more interested in front-end or back-end development?</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="frontBackRadio" id="frontBackRadio1" value="frontend">
+              I want to make websites and apps beautiful, and easy for the user to navigate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="frontBackRadio" id="fronBackRadio2" value="backend">
+              I want to make websites and apps with really advanced functionality
+            </label>
+          </div>
+        </div>
+        <div class="well">
+          <h4>Do you want to make cool web-apps?</h4>
+          <div class="radio">
+            <label>
+              <input type="radio" name="webApps" id="webApps1" value="webAppsYes">
+              Yes!
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="webApps" id="webApps2" value="webAppsNo">
+              Nah, I'm interested in other things
+            </label>
+          </div>
+        </div>
 
-        <button type="submit" class="btn btn-primary btn-lg" name="button">Submit</button>
+        <button type="submit" class="btn btn-primary btn-lg" name="button"> Submit </button>
       </form>
     </div>
   </body>
