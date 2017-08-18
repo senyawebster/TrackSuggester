@@ -8,7 +8,7 @@ function RubyRails(scale, stack, nativeness){
     // set suggested track based on condition
     suggested_track = "You should work on backend enterprise level software!";
   } else if (scale == "enterprise" && stack == "frontend") {
-    // set suggested track based on condition
+    // set suggested track based on condition.
     suggested_track = "You should work on frontend enterprise level software!";
   } else {
     suggested_track = "No matching track";

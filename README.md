@@ -17,7 +17,7 @@ _{This application will allow the user to answer 3 questions thru radio buttons 
 
 ## Known Bugs
 
-_{Only works for a specific few user-inputs. This was largely written based on several other attempts at the same from different corners of the internet like stackoverflow, etc, and my understanding of arrays is lacking. The bugs are mostly a result of this. }_
+_{Only works for a specific few user-inputs. This was largely written based on several other attempts at the same from different corners of the internet like stackoverflow, etc, and my understanding of arrays is lacking. The bugs are mostly a result of this.  }_
 
 ## Support and contact details
 
