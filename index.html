@@ -27,13 +27,15 @@
         <br>
         <h4>Now on to the good stuff...</h4>
         <div class="well">
-          <div class="radio">
-            <h4>Do you want to code for yourself, in a startup, or for big enterprise?</h4>
-            <label>
-              <input type="radio" name="sizeRadios" id="sizeRadios1" value="enterprise">
+            <label for="size">Do you want to code for yourself, in a startup, or for big enterprise?</label>
+            <br>
+            <select id="size">
+              <option value="big">A lot of big enterprises use C# and Java in most of their day-to-day</option>
+              <option value="startup">A lot of startups use Ruby so they can deploy products and web-apps as quickly as possible</option>
+              <option value="contract">If you like contract-based work, and working remotely, there are plenty of options out there for people familiar with PHP, and CSS/Design</option>
+            </select>
+            <!-- <input type="radio" name="sizeRadios" id="sizeRadios1" value="enterprise">
               A lot of big enterprises use C# and Java in most of their day-to-day
-            </label>
-          </div>
           <div class="radio">
             <label>
               <input type="radio" name="sizeRadios" id="sizeRadios2" value="startups">
@@ -45,7 +47,7 @@
               <input type="radio" name="sizeRadios" id="sizeRadios3" value="yourself">
               If you like contract-based work, and working remotely, there are plenty of options out there for people familiar with PHP, and CSS/Design
             </label>
-          </div>
+          </div> -->
         </div>
         <div class="well">
           <h4>Are you more interested in front-end or back-end development?</h4>
