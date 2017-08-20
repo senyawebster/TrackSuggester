@@ -21,7 +21,7 @@ $(document).ready(function(){
         $("div.contractResult").show();
       }
     } else {
-      alert("please enter your name")
+      alert("Please enter your name so we know who you are")
     };
 
 
